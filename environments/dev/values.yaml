@@ -1,3 +1,6 @@
+image:
+  repository: nginx
+  tag: "bad-tag"
 replicaCount: 3
 config:
   APP_ENV: dev
