@@ -11,7 +11,7 @@ spec:
     path: charts/demo-platform-chart
     helm:
       valueFiles:
-        - ../../environments/dev/values.yaml
+        - ../../environments/values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: platform-lab
